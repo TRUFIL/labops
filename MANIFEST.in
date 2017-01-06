@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include labops *.css
+recursive-include labops *.csv
+recursive-include labops *.html
+recursive-include labops *.ico
+recursive-include labops *.js
+recursive-include labops *.json
+recursive-include labops *.md
+recursive-include labops *.png
+recursive-include labops *.py
+recursive-include labops *.svg
+recursive-include labops *.txt
+recursive-exclude labops *.pyc
