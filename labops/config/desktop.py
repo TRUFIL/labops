@@ -6,9 +6,23 @@ def get_data():
 	return [
 		{
 			"module_name": "Laboratory Operations",
+			"color": "#3498db",
+			"icon": "octicon octicon-file-directory",
+			"type": "module",
+			"label": _("Lab Operations")
+		},
+		{
+			"module_name": "Sample Management",
 			"color": "yellow",
 			"icon": "octicon octicon-file-directory",
 			"type": "module",
-			"label": _("Laboratory Operations")
+			"label": _("Sample Management")
+		},
+		{
+			"module_name": "Transformers",
+			"color": "yellow",
+			"icon": "octicon octicon-file-directory",
+			"type": "module",
+			"label": _("Transformers")
 		}
 	]
